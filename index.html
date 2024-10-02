@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="conatainer flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="logo.svg" alt="spotify">Spotify</div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">home</li>
+                    <li><img class="invert" src="search.svg" alt="search">search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h2>
+                        your library
+                    </h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div>
+
+                        <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink">
+                            <span data-encore-id="type">Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink">
+                            <span data-encore-id="type">Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink">
+                            <span data-encore-id="type">Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink">
+                            <span data-encore-id=tify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink">
+                                <span data-encore-id="type">About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink">
+                            <span data-encore-id="type">Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded ">
+            <div class="header">
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M17 4L8.66943 10.0405C6.44352 11.6545 6.44353 12.3455 8.66943 13.9595L17 20"
+                            stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M7 4L15.3306 10.0405C17.5565 11.6545 17.5565 12.3455 15.3306 13.9595L7 20"
+                            stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyplaylist">
+                <h1>spotify-playlist</h1>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg width="50" color="#1fdf64" height="50" viewBox="0 0 50 50"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="25" cy="25" r="25" fill="#1abc54" />
+                                <polygon points="17,12 17,38 35,25" fill="black" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                        <h2>Glory</h2>
+                        <p>Yo Yo Honey Singh</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg width="50" color="#1fdf64" height="50" viewBox="0 0 50 50"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="25" cy="25" r="25" fill="#1abc54" />
+                                <polygon points="17,12 17,38 35,25" fill="black" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Aashiqui 2</h2>
+                        <p>Methoon,Ankit Tiwari,jeet gannguli</p>
+                    </div>
+
+
+
+                </div>
+                <div class="playbar">
+                
+                    <div class="songinfo"></div>
+                    <div class="songbuttons">
+                        <img src="prevsong.svg" alt="">
+                        <img src="play.svg" alt="">
+                        <img src="nextsong.svg" alt="">
+                    </div>
+                    <div class="songtime"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
